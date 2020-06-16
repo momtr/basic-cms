@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rackod Blog - New Article</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../../assets/favicon.ico">
+    <link rel="stylesheet" href="https://use.typekit.net/sha4vwt.css">
+    <link rel="stylesheet" href="../../style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../../newArticle.js"></script>
+</head>
+<body>
+    
+    <header>
+        <h1>Articles</h1>
+    </header>
+    <main> 
+        <div class="max-wrapper">
+            <h2>Create an article</h2>
+            <div class="form">
+                <input type="text" id="heading" placeholder="heading"><br>
+                <input type="text" id="url_name" placeholder="URL name"><br>
+                <textarea id="body" placeholder="markdown ..." rows="20"></textarea>
+                <input type="text" id="author" placeholder="author"><br>
+                <button onclick="postArticle()">Submit</button>
+            </div>
+            <div id="error-message"></div>
+        </div>
+    </main>
+    <footer>
+        <div class="max-wrapper">
+            <h3 class="footer-heading">Thanks.</h3>
+            <div class="footer-small-print">
+                &copy; 2020 Moritz Mitterdorfer | <a href="#">Impress</a>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

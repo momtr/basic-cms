@@ -11,6 +11,16 @@ This is a content management system. Using such a system, you can create content
 - `joi` for input validation
 - `markdown-it` for converting markdown to HTML
 
+## 🟢 ToDo 
+
+- [ ] serif font for body
+- [ ] edit article feature
+- [ ] grid system with sidebar?
+- [ ] global 'new articles' list
+- [ ] categories and tags
+- [ ] search functionality
+- [ ] images
+
 ## 🔒 Install
 
 1. Clone this repo
